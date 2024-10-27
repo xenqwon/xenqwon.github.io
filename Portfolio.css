@@ -1,0 +1,73 @@
+body{
+    background-color: lightgray;
+}
+
+#FirstSection{
+    background-color: rgb(13, 132, 156);
+    /* position: absolute; */
+    /* left: 5%;
+    top:5%; */
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 400px;
+
+
+}
+
+.text{
+    color: wheat;
+}
+
+h2{ 
+    text-align: center;
+    margin-top: 3%;
+    
+}
+
+img{
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+
+
+
+#Hakkımda{
+   
+    margin-left: 28%;
+    
+}
+#Projeler{
+    
+    margin-left: 5%;
+}
+#Yetenekler{
+   
+    margin-left: 5%;
+}
+#İletişim{
+    
+    margin-left: 5%;
+}
+
+.SecondSection{
+
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+
+
+}
+.SecondSection>h3{
+    color: rgb(13, 132, 156);
+    margin-left: 1%;
+}
+.SecondSection>p{
+    margin-left: 2%;
+}
+
