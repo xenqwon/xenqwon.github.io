@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(40, 40, 61);
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+nav #HakkımdaL{
+
+margin-left: 42%;
+
+}
+
+nav a{
+    color:white;
+    margin: 0px 15px ;
+    text-decoration: none;
+ 
+}
+
+div#Hakkımda{
+
+    background-color: white;
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+}
+
+div h3{
+    padding: 5px;
+}
+
+div *{
+
+    color:rgb(17, 17, 24);
+    padding-left: 2%;
+}
+
+div#Projeler{
+    background-color: white;
+    width: 90%;
+    height: 125px;
+    margin-left: 5%;
+
+}
+
+div#İletişim{
+    background-color: white;
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: white;
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+   
+    
+  
+}
+
+footer p{
+    text-align: center;
+    padding: 20px;
+ 
+}
+
+div{
+    border-left: 10px solid wheat;
+}
+footer
+{
+    border-left: 10px solid wheat;
+}
