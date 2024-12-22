@@ -22,34 +22,34 @@ app.listen(port, () =>{
 
 });
 
-// const transporter = nodemailer.createTransport({
+const transporter = nodemailer.createTransport({
 
-//     service: "gmail",
-//     host: "smtp.gmail.com",
-//     port: 587,
-//     auth: {
-//         user: "ensarsusan@gmail.com",
-//         pass: "pgsq kvqa ofie syrs"
-//     }
-// });
+     service: "gmail",
+     host: "smtp.gmail.com",
+     port: 587,
+     auth: {
+         user: "ensarsusan@gmail.com",
+         pass: "pgsq kvqa ofie syrs"
+     }
+ });
 
-// var mailOptions = {
-//     from: "bugra.13b@gmail.com" ,
-//     to: "ensarsusan@gmail.com",
-//     subject: "konu",
-//     text: "${mailContext.json().text}"
-// };
+ var mailOptions = {
+     from: "bugra.13b@gmail.com" ,
+     to: "ensarsusan@gmail.com",
+     subject: "konu",
+     text: "${mailContext.json().text}"
+ };
 
-// transporter.sendMail(mailOptions, function(error, info){
+ transporter.sendMail(mailOptions, function(error, info){
 
-//     if(error)
-//     {
-//         console.log(error);
-//     }
-//     else{
-//         console.log("Email yollandı " + info.response);
-//     }
-// });
+     if(error)
+     {
+         console.log(error);
+     }
+     else{
+         console.log("Email yollandı " + info.response);
+     }
+ });
 
 
 
