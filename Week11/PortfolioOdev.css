@@ -1,0 +1,158 @@
+/* Genel Stil Ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Başlangıç Bölümü (FirstSection) */
+  #FirstSection {
+    background-color: #e27e1a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    max-width: 1500px; /* Genişliği sınırla */
+    margin: 0 auto; /* Ortala */
+  }
+  
+  #FirstSection h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  /* Fotoğrafın Ortalanması */
+  #photo img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Menü Çubuğu - Yatay Hizalama */
+  #menuBar {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; /* Menü öğeleri arası boşluk */
+    margin-top: 20px;
+  }
+  
+  #menuBar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Menüler arası boşluk */
+    display: inline-block;
+  }
+  
+  #menuBar a:hover {
+    background-color: #ffb11e;
+    border-radius: 5px;
+  }
+
+  #mailTab{    /* #FirstSection içindeki mail penceresi açma butonu */
+    width: 70px;
+    height: 30px;
+    margin: 0px 0px -10px 0px;
+    border-radius: 100px;
+    border: 3px dotted #fb13cd;
+  }
+
+  #mailTab:hover{    /* #FirstSection içindeki mail penceresi açma butonu */
+    border-style: dashed;
+  }
+
+  #mailSection{
+    height: 300px;
+    width: 300px;
+
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-items: center;
+    align-content: space-evenly;
+    gap: 20px 5px;
+    background-color: antiquewhite;
+
+  }
+
+  #mailSection input{  /* email input */
+    width: 250px;
+
+    border-radius: 5px;
+    border-style: none;
+
+  }
+
+  #mailSection textarea
+  {
+    height: 150px;
+    width: 250px;
+
+    border-radius: 5px;
+    border-style: none;
+  }
+
+  #mailSection button{
+    width: 70px;
+    height: 30px;
+    border-radius: 100px;
+    border: 3px dotted #fb13cd;
+    background-color: white;
+    color: #555;
+  }
+
+  #mailSection button:hover{
+    
+    border-style: dashed;
+  }
+  
+  
+  .SecondSection {
+    background-color: rgb(247, 247, 247);
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .SecondSection h3 {
+    font-size: 28px;
+    color: #e0682c;
+    margin-bottom: 15px;
+  }
+  
+  .SecondSection p, .SecondSection ul {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  
+  /* Yetenekler Listesi Öğeleri */
+  .SecondSection ul li {
+    font-size: 18px;
+    margin: 5px 0;
+ }
+  
+  /* Linkler */
+  a {
+    color: #d45b15;
+    text-decoration: none;
+  }
+  
+  /* Linkin üstüne gelince */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Başlıkların üstüne gelince */
+.SecondSection h3:hover{
+    cursor: pointer;
+}
